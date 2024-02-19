@@ -1,0 +1,13 @@
+{
+  "apiUrl": "http://localhost:8080",
+  "getAllSurveys": "/api/v1/survey",
+  "getAllCategories": "/api/v1/category",
+  "getSubcategoriesForCategory": "/api/v1/subcategory?categoryId=$categoryId",
+  "addNewSubcategory": "/api/v1/subcategory",
+  "addNewCategory": "/api/v1/category",
+  "getQuestionsForSurvey": "/api/v1/question?surveyId=$surveyId",
+  "analyseSurvey": "/api/v1/survey/analyse?id=$id",
+  "createNewSurvey": "/api/v1/survey",
+  "submitSurveyAnswers": "/api/v1/answer/survey",
+  "getToken": "/api/v1/token"
+}

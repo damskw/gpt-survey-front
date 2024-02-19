@@ -1,0 +1,11 @@
+.listable {
+    border: 1px solid black;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.listable:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}

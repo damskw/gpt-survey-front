@@ -1,0 +1,12 @@
+.listed-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.listed-category-info {
+
+}
