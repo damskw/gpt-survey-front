@@ -13,9 +13,14 @@ const Internal = () => {
         setSelectedComponent(component);
     }
 
+    const handleReload = () => {
+        window.location.reload();
+    }
+
 
     return (
         <div className="internal">
+            <SimpleButton onClick={() => handleReload()}>Reload</SimpleButton>
             {selectedComponent === null && (
                 <div className="internal-buttons">
                     <SimpleButton onClick={() => handleClick('User')}>User</SimpleButton>

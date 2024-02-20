@@ -1,5 +1,5 @@
 {
-  "apiUrl": "http://localhost:8080",
+  "apiUrl": "http://13.60.6.198:8080",
   "getAllSurveys": "/api/v1/survey",
   "getAllCategories": "/api/v1/category",
   "getSubcategoriesForCategory": "/api/v1/subcategory?categoryId=$categoryId",

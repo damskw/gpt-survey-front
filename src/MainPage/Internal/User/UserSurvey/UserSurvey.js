@@ -50,6 +50,7 @@ const UserSurvey = ({survey}) => {
                         <div key={question.id}>
                             <p>{question.text}</p>
                             <input
+                                required
                                 type="text"
                                 value={answers[question.id]}
                                 onChange={(e) => handleInputChange(e, question.id)}

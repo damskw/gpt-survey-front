@@ -77,6 +77,7 @@ const NewSurvey = () => {
                                 </div>
                             ))}
                             <input
+                                required
                                 name="name"
                                 placeholder="Survey's name"
                                 value={surveyName}

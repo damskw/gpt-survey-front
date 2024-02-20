@@ -24,7 +24,7 @@ const NewSubcategory = props => {
             {isSent === false && (
                 <div className="form-wrapper">
                     <form className="data-form" onSubmit={handleSubmit}>
-                        <input name="name" type="text" placeholder="Subcategory's name"></input>
+                        <input required name="name" type="text" placeholder="Subcategory's name"></input>
                         <SimpleButton>Submit</SimpleButton>
                     </form>
                 </div>
